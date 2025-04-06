@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #cce6ff;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+}
+li a:hover:not(.active) {
+    color: #0073e6;
+  }  
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #003399;
+    font-weight: bolder;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: #004080
+}
+
+.detel p{
+    color: #555;
+    line-height: 22px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    margin-top: 70px;
+    margin-left: 80px;
+    border-radius: 10%;
+    border: 3px solid #555;
+    box-shadow: 10px 10px 5px 12px lightblue;
+}
+    </style>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio Website</title>
+	<link rel="stylesheet" href="portfolio_style.css">
+</head>
+<body>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="startupideas.html">Startup Ideas</a></li>
+                <li><a href="sloganspectrum.html">Slogan Spectrum</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="contactme.html">Contact me</a></li>
+            </ul>
+        </nav>
+        <div class="detel">
+            <h1>I'm <span> Vidhi Ladani </span></h1>
+            <p>This is my official portfolio website to show details about my academics, 
+                <br>my achievements, my hobbies, startup ideas, slogans and many more...
+                <br>Get the chance to know me more by clicking the explore button...
+                <br>
+            </p>
+            <form action="self.html"><input class="button" type="submit" value="EXPLORE"></form>
+        </div>
+        <div class="images">
+            <img src="portfolio_profile1.jpeg" class="girl">
+        </div>
+    </div>
+    <br><br><br><br>
+    <footer>
+        <div class="footer-content">
+            
+            <ul class="social-links">
+                <a href="mailto:ladanividhi1635@gmail.com"><img src="gmail.jpg" height="40px" width="40px" style="border-radius:20%";></a>
+                <a href="https://facebook.com"><img src="facebook.jpg" height="40px" width="40px" style="border-radius:20%";></a>
+                <a href="https://www.instagram.com/vidhiladani1635?igsh=OGlvOXFrM2w4NjFl"><img src="instagram.jpg" height="40px" width="40px" style="border-radius:20%"></a>
+                <a href="https://twitter.com/home"><img src="twitter.jpg" height="40px" width="40px" style="border-radius:20%"></a>
+                <a href="https://www.linkedin.com/in/vidhi-ladani-13882a291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="linkedin.jpg" height="40px" width="40px" style="border-radius:20%";></a>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>&copy; Vidhi Ladani - All rights reserved.</p>
+        </div>
+       </footer>
+</body>
+</html>
